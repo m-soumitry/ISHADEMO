@@ -13,8 +13,11 @@
       <types1:CreatedBy>CICD_automation_dev</types1:CreatedBy>
       <types1:CreationDate>2023-12-01T11:20:51Z</types1:CreationDate>
       <types1:ModifiedBy>CICD_automation_dev</types1:ModifiedBy>
-      <types1:ModificationDate>2023-12-20T10:40:33Z</types1:ModificationDate>
-      <types1:PublicationStatus>unpublished</types1:PublicationStatus>
+      <types1:ModificationDate>2023-12-20T10:41:10Z</types1:ModificationDate>
+      <types1:PublicationStatus>published</types1:PublicationStatus>
+      <types1:PublishedBy>CICD_automation_dev</types1:PublishedBy>
+      <types1:PublicationDate>2023-12-20T10:41:14Z</types1:PublicationDate>
+      <types1:PublishedContributionId>project:/tf.TF_1-29/TF_1-29.tf.xml</types1:PublishedContributionId>
       <types1:AutosaveExists>false</types1:AutosaveExists>
       <types1:Entry>
          <taskflow xmlns="http://schemas.active-endpoints.com/appmodules/screenflow/2010/10/avosScreenflow.xsd"
@@ -39,7 +42,11 @@
             </tempFields>
             <notes/>
             <deployment skipIfRunning="false" suspendOnFault="false" tracingLevel="verbose">
-               <rest/>
+               <rest>
+                  <allowedGroups>
+                     <group>abcd</group>
+                  </allowedGroups>
+               </rest>
             </deployment>
             <flow id="a">
                <start id="b">
@@ -130,5 +137,5 @@
       <types1:GUID>hxfJehvU9UzfuY6gaiz3aw</types1:GUID>
       <types1:DisplayName>TF_1</types1:DisplayName>
    </types1:Item>
-   <types1:CurrentServerDateTime>2023-12-20T10:40:50.375Z</types1:CurrentServerDateTime>
+   <types1:CurrentServerDateTime>2023-12-20T10:41:27.533Z</types1:CurrentServerDateTime>
 </aetgt:getResponse>
