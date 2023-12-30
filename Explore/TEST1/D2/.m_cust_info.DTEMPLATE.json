@@ -16,14 +16,14 @@
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "DEC - 30 CHECKIN",
-        "contentType" : null,
+        "description" : "DEC - 31 CHECKIN\n",
+        "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2023-12-30T16:22:01.375Z",
+  "updateTime" : "2023-12-30T16:33:34.224Z",
   "objectRefs" : [ {
     "id" : "49rE5YXrfwdd9X2DD4xqqe",
     "name" : "SpooFlatFileConn",
