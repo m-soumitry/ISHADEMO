@@ -1,0 +1,25 @@
+{
+  "objectInfo" : {
+    "id" : "7TR5gvrL86ciOgII1I4dGm",
+    "name" : "svc_TaskflowDetails",
+    "type" : "AI_SERVICE_CONNECTOR",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "XbeKLUaaaaabbgd-gt-20117742-2023-11-26T12:39:10.79Z::svc.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "application/json; charset=utf-8",
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "updateTime" : "2023-12-30T12:07:36.773Z",
+  "objectRefs" : [ ]
+}

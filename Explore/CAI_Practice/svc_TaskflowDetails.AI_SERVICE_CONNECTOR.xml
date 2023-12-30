@@ -1,0 +1,96 @@
+<aetgt:getResponse xmlns:aetgt="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd"
+                   xmlns:types1="http://schemas.active-endpoints.com/appmodules/repository/2010/10/avrepository.xsd">
+   <types1:Item>
+      <types1:EntryId>XbeKLUaaaaabbgd-gt-20117742-2023-11-26T12:39:10.79Z::svc.xml</types1:EntryId>
+      <types1:Name>svc_TaskflowDetails</types1:Name>
+      <types1:MimeType>application/xml+businesssconnector</types1:MimeType>
+      <types1:Description/>
+      <types1:AppliesTo/>
+      <types1:Tags/>
+      <types1:VersionLabel>1.0</types1:VersionLabel>
+      <types1:State>CURRENT</types1:State>
+      <types1:ProcessGroup/>
+      <types1:CreatedBy>CICD_automation_dev</types1:CreatedBy>
+      <types1:CreationDate>2023-11-26T12:39:11Z</types1:CreationDate>
+      <types1:ModifiedBy>CICD_automation_dev</types1:ModifiedBy>
+      <types1:ModificationDate>2023-11-26T13:11:48Z</types1:ModificationDate>
+      <types1:PublicationStatus>published</types1:PublicationStatus>
+      <types1:PublishedBy>CICD_automation_dev</types1:PublishedBy>
+      <types1:PublicationDate>2023-12-30T11:41:06Z</types1:PublicationDate>
+      <types1:PublishedContributionId>project:/rt.connector/svc_TaskflowDetails/svc_TaskflowDetails_svcDef.xml</types1:PublishedContributionId>
+      <types1:AutosaveExists>false</types1:AutosaveExists>
+      <types1:Entry>
+         <businessConnector xmlns="http://schemas.informatica.com/socrates/data-services/2014/05/business-connector-model.xsd"
+                            agentOnly="false"
+                            debug="false"
+                            displayName="svc_TaskflowDetails"
+                            label=""
+                            name="svc_TaskflowDetails"
+                            uuid="b4cf8f2b-48e2-46a3-b203-58b39d61efe5">
+            <description/>
+            <tags/>
+            <connectionAttributes xmlns="http://schemas.informatica.com/appmodules/screenflow/2014/04/avosConnectors.xsd">
+               <connectionAttribute description=""
+                                    label="username"
+                                    masked="false"
+                                    name="username"
+                                    required="true"
+                                    testWith="CICD_automation_dev"
+                                    type="string"/>
+               <connectionAttribute description=""
+                                    label="password"
+                                    masked="false"
+                                    name="password"
+                                    required="true"
+                                    testWith="infa@2023"
+                                    type="string"/>
+            </connectionAttributes>
+            <actions>
+               <action category=""
+                       failOnError="false"
+                       forSearch="false"
+                       label="Login"
+                       maxRedirects="100"
+                       name="Login"
+                       preemptiveAuth="true"
+                       responseEncoding="">
+                  <description/>
+                  <input/>
+                  <binding>
+                     <restSimpleBinding multiUsing="semicolonSeparated"
+                                        url="https://dm-us.informaticacloud.com/ma/api/v2/user/login"
+                                        verb="POST">
+                        <mutualAuth enabled="false">
+                           <keyStore mode="file"/>
+                           <keyStorePassword/>
+                        </mutualAuth>
+                        <httpHeaders>
+                           <header name="Accept">application/json</header>
+                           <header name="Content-Type">application/json</header>
+                        </httpHeaders>
+                        <body>{{
+"username": "{$username}",
+ "password": "{$password}"
+ }}</body>
+                     </restSimpleBinding>
+                  </binding>
+                  <output>
+                     <field description=""
+                            name="O_icSessionId"
+                            property="icSessionId"
+                            type="string"/>
+                     <field description=""
+                            name="O_serverUrl"
+                            property="serverUrl"
+                            type="string"/>
+                  </output>
+               </action>
+            </actions>
+            <objects/>
+         </businessConnector>
+      </types1:Entry>
+      <types1:GUID>7TR5gvrL86ciOgII1I4dGm</types1:GUID>
+      <types1:DisplayName>svc_TaskflowDetails</types1:DisplayName>
+   </types1:Item>
+   <types1:CurrentServerDateTime>2023-12-30T12:07:31.581Z</types1:CurrentServerDateTime>
+</aetgt:getResponse>
