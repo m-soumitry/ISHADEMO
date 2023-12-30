@@ -1,6 +1,6 @@
 {
   "objectInfo" : {
-    "id" : "7lzx5ptmzkJdhseoIFV4Iv",
+    "id" : "90wxK5Cv4eVeFQJYusqqqg",
     "name" : "M_FF_CustomerDetails",
     "type" : "DTEMPLATE",
     "metadata" : {
@@ -9,23 +9,23 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "01CQ151700000000004A"
+        "repoHandle" : "01CQ161700000000001T"
       },
       "contextAttributes" : [ {
         "name" : "id",
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "tag2-JUNE24--Main Mapping",
-        "contentType" : null,
+        "description" : "checkin test",
+        "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2023-12-30T12:21:54.519Z",
+  "updateTime" : "2023-12-30T14:48:52.399Z",
   "objectRefs" : [ {
-    "id" : "49rE5YXrfwdd9X2DD4xqqe",
+    "id" : "1LmTPyFSiCVjPvm4PwUikx",
     "name" : "SpooFlatFileConn",
     "type" : "Connection",
     "metadata" : {
@@ -34,7 +34,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "01CQ150B000000000002"
+        "repoHandle" : "01CQ160B000000000002"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
