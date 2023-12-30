@@ -16,14 +16,14 @@
         "value" : "@1"
       } ],
       "additionalInfo" : {
-        "description" : "1:27PM July 21-- Checkin",
-        "contentType" : null,
+        "description" : "DEC - 30 CHECKIN",
+        "contentType" : "JSON",
         "documentState" : "VALID"
       }
     }
   },
   "dataFileExtension" : "zip",
-  "updateTime" : "2023-12-30T12:21:54.519Z",
+  "updateTime" : "2023-12-30T14:17:37.634Z",
   "objectRefs" : [ {
     "id" : "49rE5YXrfwdd9X2DD4xqqe",
     "name" : "SpooFlatFileConn",
