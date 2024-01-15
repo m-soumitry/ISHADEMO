@@ -1,0 +1,23 @@
+{
+  "objectInfo" : {
+    "id" : "8CZxYNlx0otiTAXePC1wI8",
+    "name" : "DM 3",
+    "type" : "Folder",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2023-12-20T10:40:50.798Z",
+  "objectRefs" : [ ]
+}

@@ -1,0 +1,45 @@
+{
+  "objectInfo" : {
+    "id" : "53hS0erFyYUbu76WVuyL0X",
+    "name" : "TF_2",
+    "type" : "TASKFLOW",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 1,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "kR1kUf2hwq9bdsr-gt-20266408-2023-12-30T11:45:03.016Z::tf.xml"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "xml",
+  "updateTime" : "2023-12-30T12:07:36.772Z",
+  "objectRefs" : [ {
+    "id" : "8wCRZPaxQQferc2C6mCDEM",
+    "name" : "MT_M_FF_CustomerDetails",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01CQ150Z00000000001W"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "changed-29 June",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/CAI_Practice"
+  } ]
+}

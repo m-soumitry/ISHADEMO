@@ -1,0 +1,23 @@
+{
+  "objectInfo" : {
+    "id" : "kg6hEgC67cYjmPzRNiVD2B",
+    "name" : "D2",
+    "type" : "Folder",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "",
+        "contentType" : null,
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "updateTime" : "2023-12-30T16:22:01.373Z",
+  "objectRefs" : [ ]
+}
